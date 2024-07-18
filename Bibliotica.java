@@ -2,7 +2,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 package com.mycompany.bibliotica;
-
 import javax.swing.JOptionPane;
 
 public class Bibliotica {
