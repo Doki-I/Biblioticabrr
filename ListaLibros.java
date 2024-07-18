@@ -5,6 +5,7 @@
 package com.mycompany.bibliotica;
 
 public class ListaLibros {
+
     private NodoListaLibros inicio;
     private NodoListaLibros fin;
 
@@ -56,11 +57,11 @@ public class ListaLibros {
             NodoListaLibros aux = inicio;
             do {
                 Libros libro = aux.getElemento();
-                System.out.println("ID: " + libro.getIdLibro() +
-                        ", Nombre: " + libro.getNombre() +
-                        ", Autor: " + libro.getAutor() +
-                        ", Editorial: " + libro.getEditorial() +
-                        ", Categoría: " + libro.getCategoria()); // Incluir la categoría en la impresión
+                System.out.println("ID: " + libro.getIdLibro()
+                        + ", Nombre: " + libro.getNombre()
+                        + ", Autor: " + libro.getAutor()
+                        + ", Editorial: " + libro.getEditorial()
+                        + ", Categoría: " + libro.getCategoria());
                 aux = aux.getSiguiente();
             } while (aux != inicio);
         }
@@ -138,3 +139,4 @@ public class ListaLibros {
         return inicio;
     }
 }
+
