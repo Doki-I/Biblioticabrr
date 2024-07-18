@@ -29,3 +29,4 @@ public class NodoListaCategorias {
         this.siguiente = siguiente;
     }
 }
+
